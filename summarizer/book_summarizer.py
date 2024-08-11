@@ -11,7 +11,6 @@ ollama_embedding = OllamaEmbeddings(
     },
 )
 
-
 embeddings = ollama_embedding.aembed_documents()
 
 
